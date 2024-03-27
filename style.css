@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 0.875em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background: url(image/mARTIN.PNG) top no-repeat;
+    background-color: black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.video-container {
+    position: relative;
+    max-width: 50%;
+    width: 100%;
+    margin-top: 25px;
+    margin-right: 20px;
+    margin-left: 20px;	
+}
+
+video {
+    width: 100%;
+    height: auto;
+    display: block;
+    align-items: center;
+}
+
+.lyrics-container {
+    width: 100%;
+    max-width: 950px;
+    height: 265px;
+    background-color: #322c34;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    border-radius: 25px;
+    overflow-y: auto;
+}
+
+.panel {
+    width: 30%;
+    max-width: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #322c34;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.credits-panel {
+    border-radius: 25px;
+    height: 800px;
+    position: absolute;
+    left: 0;
+    margin-left: 5px;
+}
+
+.cast-panel {
+    border-radius: 25px;
+    height: 800px;
+    position: absolute;
+    right: 0;
+    margin-right: 5px;
+}
+
+.panel h2 {
+    margin-top: 0;
+}
+
+.panel ul {
+    list-style-type: none;
+    padding: 0;
+}
